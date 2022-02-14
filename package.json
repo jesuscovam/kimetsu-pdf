@@ -1,0 +1,19 @@
+{
+	"name": "pdfs",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "ts-node index.ts"
+	},
+	"dependencies": {
+		"hummus": "^1.0.110",
+		"pdf-lib": "^1.17.1"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.17",
+		"nodemon": "^2.0.15",
+		"ts-node": "^10.5.0",
+		"typescript": "^4.5.5"
+	}
+}
